@@ -1,0 +1,10 @@
+import lombok.Data;
+ 
+public @Data class Student {
+	String name;
+	String address;
+	int age;
+	double gpa;
+}
+ 
+// javac -cp lombok.jar Student.java ->
